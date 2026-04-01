@@ -4,6 +4,7 @@ import { assets } from '../assets/assets';
 import { Facebook, Instagram, Youtube, Mail, Loader2 } from 'lucide-react';
 import { toast } from 'react-hot-toast';
 import { supabase } from '../lib/supabase.js';
+import logo from '../assets/bookbee-logo-transparent.png';
 
 const Footer = () => {
   const [email, setEmail] = useState('');
@@ -48,10 +49,12 @@ const Footer = () => {
         {/* Column 1: Brand & About */}
         <div className="flex flex-col items-start gap-4">
           <Link to="/" onClick={() => window.scrollTo(0, 0)} className="transition-transform active:scale-95">
-             <img src={assets.logo} alt="BookBee Logo" className="w-36 h-auto" />
+        <img src={logo}  alt="BookBee Logo" 
+           className="h-70 md:h-16 w-auto mb-1 object-contain object-left scale-200" 
+        />
           </Link>
-          <p className="text-gray-400 text-sm leading-relaxed mt-2 pr-4 font-medium">
-            Your ultimate destination for booking movie tickets, discovering new releases, and finding the best theaters near you. Experience entertainment like never before.
+          <p className="-ml-8 text-gray-400  "> 
+             Your ultimate destination for booking movie tickets, discovering new releases, and finding the best theaters near you. Experience entertainment like never before.
           </p>
         </div>
 
