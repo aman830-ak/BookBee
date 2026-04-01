@@ -28,7 +28,7 @@ import ListShows from "./pages/admin/ListShows";
 import ListBookings from "./pages/admin/ListBookings";
 import ManageReleases from "./pages/admin/ManageReleases";
 import Inbox from "./pages/admin/Inbox";
-import NewsletterList from "./pages/admin/NewsLetterList";
+import NewsletterList from "./pages/admin/NewsletterList";
 import VerifyTicket from "./pages/admin/VerifyTicket";
 import PromoManager from "./pages/admin/PromoManager";
 
