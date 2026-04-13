@@ -73,7 +73,7 @@ const Home = () => {
       <TrailerSection movies={movies} />
 
       <footer className="py-10 text-center text-gray-600 text-sm border-t border-gray-900">
-        © 2026 QuickShow — Built with Supabase
+        © 2026 BookBee — Built with Supabase
       </footer>
     </div>
   );
